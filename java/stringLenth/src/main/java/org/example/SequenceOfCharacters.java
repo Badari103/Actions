@@ -1,7 +1,10 @@
 package org.example;
 
 class SequenceOfCharacters {
-    final String value;
+    /**
+     * This represents the string value.
+     */
+    private final String value;
 
     public SequenceOfCharacters(String value) {
         this.value = value;
