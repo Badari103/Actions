@@ -4,7 +4,7 @@ def fibonacci(input_number):
     while len(fib_sequence) < input_number:
         next_number = fib_sequence[-1] + fib_sequence[-2]
         fib_sequence.append(next_number)
- 
+
     return fib_sequence
 
 
